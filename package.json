@@ -1,0 +1,23 @@
+{
+	"name": "authme-docs",
+	"version": "1.0.0",
+	"description": "Docs for Authme.",
+	"main": "index.html",
+	"scripts": {
+    "start": "docsify serve",
+    "deploy": "vercel deploy --prod"
+  },
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Levminer/authme-docs.git"
+	},
+	"author": "Levminer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Levminer/authme-docs/issues"
+	},
+	"homepage": "https://github.com/Levminer/authme-docs#readme",
+	"devDependencies": {
+		"docsify": "^4.11.6"
+	}
+}

@@ -1,0 +1,62 @@
+## Import
+
+Short tutorial on how to import to Authme.
+
+You can import to Authme two ways:
+
+1. From Google Authenticator: Import all of your saved QR codes from your Google Authenticator app.
+
+2. From stand alone QR codes: You screenshot all the QR codes from your favourite websites, and import all of them to Authme
+
+If you want to test Authme download this sample [import file](https://github.com/Levminer/authme/blob/main/sample/authme_import_sample.zip?raw=true).
+
+## Requirements
+
+!> If you import from Google Authenticator you need: [Python](https://www.python.org/downloads/). If you are importing from stand alone QR code(s) you don't need anything special.
+
+## Google Authenticator
+
+1. Export the QR codes from the Google Authenticator app: Tap on the three dots on the top right of the screen > Transfer Accounts >
+   Export Accounts
+
+1. Save the two or more QR code(s) with a screenshot or take a picture of them from another phone. Then transfer them to your computer.
+
+1. Back to Authme: Top menu > Advanced > Import
+
+1. Scroll down, choose import from Google Authenticator
+
+1. A popup windows will open, just select the picture(s).
+
+1. You will see a popup window again. Save the file.
+
+1. Go back to the main page: Top menu > Advanced > Import
+
+1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
+
+## Stand alone QR code(s)
+
+1. Go to the website(s) you want to get the QR code(s) from.
+
+1. Save the QR code(s) to your computer (take screenshot(s)).
+
+1. Back to Authme: Top menu > Advanced > Import
+
+1. Scroll down, choose import from Stand alone QR codes
+
+1. A popup windows will open, just select the picture(s).
+
+1. Go back to the main page: Top menu > Advanced > Import
+
+1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
+
+## Troubleshooting
+
+Nothing happens:
+
+1. If you are importing from Google Authenticator, make sure you have Python installed (Check: Top menu > Info > About). If you see "Not installed" download and install [Python](https://www.python.org/downloads/) and restart the app.
+
+No QR codes found on the picture(s):
+
+1. If you took a photo try to take another one, it has to be a quite clear picture.
+
+1. If you took a screenshot make sure you have some space around the QR code.
