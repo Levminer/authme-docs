@@ -4,17 +4,31 @@ Short tutorial on how to import to Authme.
 
 You can import to Authme two ways:
 
-1. From Google Authenticator: Import all of your saved QR codes from your Google Authenticator app.
+1. From QR codes: You screenshot all the QR codes from your favourite websites, and import all of them to Authme.
 
-2. From stand alone QR codes: You screenshot all the QR codes from your favourite websites, and import all of them to Authme
+1. From Google Authenticator QR code(s): Import all of your saved QR codes from your Google Authenticator app.
 
 If you want to test Authme download this sample [import file](https://github.com/Levminer/authme/blob/main/sample/authme_import_sample.zip?raw=true).
 
-## Requirements
+## QR code(s)
 
-!> If you import from Google Authenticator you need: [Python](https://www.python.org/downloads/). If you are importing from stand alone QR code(s) you don't need anything special.
+1. Go to the website(s) you want to get the QR code(s) from.
+
+1. Save the QR code(s) to your computer (take screenshot(s)).
+
+1. Back to Authme: Top menu > Advanced > Import
+
+1. Scroll down, choose import from Stand alone QR codes
+
+1. A popup windows will open, just select the picture(s).
+
+1. Go back to the main page: Top menu > Advanced > Import
+
+1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
 
 ## Google Authenticator
+
+!> If you import from Google Authenticator you need: [Python](https://www.python.org/downloads/). If you are importing from QR code(s) you don't need anything special.
 
 1. Export the QR codes from the Google Authenticator app: Tap on the three dots on the top right of the screen > Transfer Accounts >
    Export Accounts
@@ -28,22 +42,6 @@ If you want to test Authme download this sample [import file](https://github.com
 1. A popup windows will open, just select the picture(s).
 
 1. You will see a popup window again. Save the file.
-
-1. Go back to the main page: Top menu > Advanced > Import
-
-1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
-
-## Stand alone QR code(s)
-
-1. Go to the website(s) you want to get the QR code(s) from.
-
-1. Save the QR code(s) to your computer (take screenshot(s)).
-
-1. Back to Authme: Top menu > Advanced > Import
-
-1. Scroll down, choose import from Stand alone QR codes
-
-1. A popup windows will open, just select the picture(s).
 
 1. Go back to the main page: Top menu > Advanced > Import
 

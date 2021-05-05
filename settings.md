@@ -4,7 +4,7 @@ All of the settings you can configure in Authme.
 
 ## Launch on startup
 
-?> Windows only
+?> Ideal for Windows
 
 Start the app after the operating system loaded. The app will start on the tray.
 
@@ -12,9 +12,21 @@ Start the app after the operating system loaded. The app will start on the tray.
 
 ## Close app to tray
 
-?> Windows only
+?> Ideal for Windows
 
 If you close the app it will not quit. You can open the app from the tray menu.
+
+-   Default: Off
+
+## Show 2FA names
+
+The QR codes store a name field. You can turn it on, after restart on the main page you will see the name is the stored QR codes.
+
+-   Default: Off
+
+## Reveal code
+
+Hide the code, but you can still copy it.
 
 -   Default: Off
 
@@ -24,11 +36,11 @@ After you copy the code the search bar and the search results will reset.
 
 -   Default: On
 
-## Show 2FA names
+## Save search history
 
-The QR codes store a name field. You can turn it on, after restart on the main page you will see the name is the stored QR codes.
+Keep your search history.
 
--   Default: Off
+-   Default: On
 
 ## Shortcuts
 
@@ -39,8 +51,6 @@ Supported modifiers:
 -   Control (Command)
 -   Alt (Option)
 -   Shift
-
-Shortcuts in the app supports only a modifier and a key (CommandOrControl+s). If you want to use two modifier and a key take a look at the: [Advanced Configuration](settings.md?id=advanced-configuration).
 
 Default shortcuts:
 
@@ -53,7 +63,7 @@ Default shortcuts:
 -   Exit app: <kbd>CommandOrControl</kbd> + <kbd>W</kbd>
     <br>
     <br>
--   Open Authme Web: <kbd>CommandOrControl</kbd> + <kbd>A</kbd>
+-   Open Authme Web: <kbd>CommandOrControl</kbd> + <kbd>B</kbd>
     <br>
     <br>
 -   Show import: <kbd>CommandOrControl</kbd> + <kbd>I</kbd>
@@ -89,8 +99,6 @@ Supported modifiers:
 -   Alt (Option)
 -   Shift
 
-Shortcuts in the app supports only a modifier and a key (CommandOrControl+s). If you want to use two modifier and a key take a look at the: [Advanced Configuration](settings.md?id=advanced-configuration).
-
 Default shortcuts:
 
 -   Open/Close app: <kbd>CommandOrControl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
@@ -101,7 +109,53 @@ Default shortcuts:
     <br>
 -   Open/Close import page: <kbd>CommandOrControl</kbd>+ <kbd>Shift</kbd> + <kbd>D</kbd>
 
-## Advanced configuration
+## Settings format
+
+You can modify the settings file. See [folders](settings.md?id=folders) for more informations.
+
+```json
+{
+	"version": {
+		"tag": "<version>"
+	},
+	"settings": {
+		"launch_on_startup": false,
+		"close_to_tray": false,
+		"show_2fa_names": false,
+		"click_to_reveal": false,
+		"reset_after_copy": true,
+		"save_search_results": true
+	},
+	"security": {
+		"require_password": null,
+		"password": null
+	},
+	"shortcuts": {
+		"show": "CommandOrControl+q",
+		"settings": "CommandOrControl+s",
+		"exit": "CommandOrControl+w",
+		"web": "CommandOrControl+b",
+		"import": "CommandOrControl+i",
+		"export": "CommandOrControl+e",
+		"release": "CommandOrControl+n",
+		"issues": "CommandOrControl+p",
+		"docs": "CommandOrControl+d",
+		"licenses": "CommandOrControl+l",
+		"update": "CommandOrControl+u",
+		"info": "CommandOrControl+o"
+	},
+	"global_shortcuts": {
+		"show": "CommandOrControl+Shift+a",
+		"settings": "CommandOrControl+Shift+s",
+		"exit": "CommandOrControl+Shift+d"
+	},
+	"search_history": {
+		"latest": null
+	}
+}
+```
+
+## Folders
 
 Settings file location:
 
@@ -109,52 +163,6 @@ Settings file location:
 
 -   Linux: `/home/<username>/Levminer/Authme`
 
-Settings format:
+Cache file location:
 
-```json
-{
-	"version": {
-		"tag": "<your_version>"
-	},
-
-	"settings": {
-		"launch_on_startup": false,
-		"close_to_tray": false,
-		"show_2fa_names": false,
-		"click_to_reveal": false,
-		"reset_after_copy": true
-	},
-
-	"security": {
-		"require_password": null,
-		"password": null
-	},
-
-	"shortcuts": {
-		"show": "CommandOrControl+q",
-		"settings": "CommandOrControl+s",
-		"exit": "CommandOrControl+w",
-		"web": "CommandOrControl+a",
-		"import": "CommandOrControl+i",
-		"export": "CommandOrControl+e",
-		"release": "CommandOrControl+r",
-		"issues": "CommandOrControl+p",
-		"docs": "CommandOrControl+d",
-		"licenses": "CommandOrControl+l",
-		"update": "CommandOrControl+u",
-		"info": "CommandOrControl+o"
-	},
-
-	"global_shortcuts": {
-		"show": "CommandOrControl+Shift+a",
-		"settings": "CommandOrControl+Shift+s",
-		"exit": "CommandOrControl+Shift+d"
-	}
-}
-```
-
-Supported shortcut modifiers and key codes:
-
--   View Supported modifiers on Electron docs: [Modifiers](https://www.electronjs.org/docs/api/accelerator#available-modifiers)
-
--   View Supported key codes on Electron docs: [Key codes](https://www.electronjs.org/docs/api/accelerator#available-key-codes)
+-   Windows: `C:\Users\<username>\AppData\Roaming\authme`

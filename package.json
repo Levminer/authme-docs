@@ -1,23 +1,17 @@
 {
 	"name": "authme-docs",
 	"version": "1.0.0",
-	"description": "Docs for Authme.",
-	"main": "index.html",
-	"scripts": {
-    "start": "docsify serve",
-    "deploy": "vercel deploy --prod"
-  },
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Levminer/authme-docs.git"
-	},
+	"description": "A simple 2FA app for desktop built with Electron and Node.js.",
 	"author": "Levminer",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Levminer/authme-docs/issues"
+	"license": "CC-BY-SA-4.0",
+	"scripts": {
+		"start": "docsify serve",
+		"deploy": "vercel deploy --prod"
 	},
-	"homepage": "https://github.com/Levminer/authme-docs#readme",
+	"main": "index.html",
+	"dependencies": {},
 	"devDependencies": {
-		"docsify": "^4.11.6"
+		"docsify": "^4.12.1",
+		"docsify-cli": "^4.4.3"
 	}
 }
