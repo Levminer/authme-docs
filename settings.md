@@ -163,6 +163,12 @@ Settings file location:
 
 -   Linux: `/home/<username>/Levminer/Authme`
 
+-   Mac: `/Users/<username>/Levminer/Authme`
+
 Cache file location:
 
 -   Windows: `C:\Users\<username>\AppData\Roaming\authme`
+
+-   Linux: `/home/<username>/.config/authme`
+
+-   Mac: `/Users/<username>/Library/Application Support/authme`

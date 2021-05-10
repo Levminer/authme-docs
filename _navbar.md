@@ -1,2 +1,4 @@
 -   [Home](/)
+-   [Website](https://authme.levminer.com)
 -   [GitHub](https://github.com/Levminer/authme)
+-   [SourceForge](https://sourceforge.net/projects/authme-2fa/)
