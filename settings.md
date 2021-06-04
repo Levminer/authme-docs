@@ -4,19 +4,21 @@ All of the settings you can configure in Authme.
 
 ## Launch on startup
 
-?> Ideal for Windows
-
 Start the app after the operating system loaded. The app will start on the tray.
 
 -   Default: Off
 
 ## Close app to tray
 
-?> Ideal for Windows
-
-If you close the app it will not quit. You can open the app from the tray menu.
+On closing the app will not quit. You can open the app from the tray menu.
 
 -   Default: Off
+
+## Disable window capture
+
+Disables screenshots and screen capture. You can't record or screenshot the app.
+
+-   Default: On
 
 ## Show 2FA names
 
@@ -44,7 +46,7 @@ Keep your search history.
 
 ## Shortcuts
 
-You can modify the not global shortcuts. After you done, restart the app to make the new shortcuts work.
+You can modify the not global shortcuts.
 
 Supported modifiers:
 

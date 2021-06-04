@@ -14,6 +14,12 @@ This is the home of all the Authme Documentation.
 -   Fast and easy to use.
 -   Well maintained, update weekly or monthly.
 
+## Help
+
+-   GitHub Issues: [GitHub](https://github.com/levminer/authme/issues)
+
+-   Email: [Email](mailto:authme@levminer.com)
+
 ## Support
 
 You can support the project on: [PayPal](https://paypal.me/levminer)
