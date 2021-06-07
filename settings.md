@@ -28,7 +28,7 @@ The QR codes store a name field. You can turn it on, after restart on the main p
 
 ## Reveal code
 
-Hide the code, but you can still copy it.
+Blurs the code, but you can still copy it.
 
 -   Default: Off
 
@@ -36,7 +36,7 @@ Hide the code, but you can still copy it.
 
 After you copy the code the search bar and the search results will reset.
 
--   Default: On
+-   Default: Off
 
 ## Save search history
 
@@ -46,7 +46,7 @@ Keep your search history.
 
 ## Shortcuts
 
-You can modify the not global shortcuts.
+You can modify the shortcuts in the settings at the Shortcuts tab.
 
 Supported modifiers:
 
@@ -56,40 +56,40 @@ Supported modifiers:
 
 Default shortcuts:
 
--   Show app: <kbd>CommandOrControl</kbd> + <kbd>Q</kbd>
+-   Show app: <kbd>CommandOrControl</kbd> <kbd>Q</kbd>
     <br>
     <br>
--   Show settings: <kbd>CommandOrControl</kbd> + <kbd>S</kbd>
+-   Show settings: <kbd>CommandOrControl</kbd> <kbd>S</kbd>
     <br>
     <br>
--   Exit app: <kbd>CommandOrControl</kbd> + <kbd>W</kbd>
+-   Exit app: <kbd>CommandOrControl</kbd> <kbd>W</kbd>
     <br>
     <br>
--   Open Authme Web: <kbd>CommandOrControl</kbd> + <kbd>B</kbd>
+-   Open Authme Web: <kbd>CommandOrControl</kbd> <kbd>B</kbd>
     <br>
     <br>
--   Show import: <kbd>CommandOrControl</kbd> + <kbd>I</kbd>
+-   Show import: <kbd>CommandOrControl</kbd> <kbd>I</kbd>
     <br>
     <br>
--   Show export: <kbd>CommandOrControl</kbd> + <kbd>E</kbd>
+-   Show export: <kbd>CommandOrControl</kbd> <kbd>E</kbd>
     <br>
     <br>
--   Open releases: <kbd>CommandOrControl</kbd> + <kbd>R</kbd>
+-   Open releases: <kbd>CommandOrControl</kbd> <kbd>R</kbd>
     <br>
     <br>
--   Open issues: <kbd>CommandOrControl</kbd> + <kbd>P</kbd>
+-   Open issues: <kbd>CommandOrControl</kbd> <kbd>P</kbd>
     <br>
     <br>
--   Open Docs: <kbd>CommandOrControl</kbd> + <kbd>D</kbd>
+-   Open Docs: <kbd>CommandOrControl</kbd> <kbd>D</kbd>
     <br>
     <br>
--   Open licenses: <kbd>CommandOrControl</kbd> + <kbd>L</kbd>
+-   Open licenses: <kbd>CommandOrControl</kbd> <kbd>L</kbd>
     <br>
     <br>
--   Check for update: <kbd>CommandOrControl</kbd> + <kbd>U</kbd>
+-   Check for update: <kbd>CommandOrControl</kbd> <kbd>U</kbd>
     <br>
     <br>
--   About Authme: <kbd>CommandOrControl</kbd> + <kbd>O</kbd>
+-   About Authme: <kbd>CommandOrControl</kbd> <kbd>O</kbd>
 
 ## Gobal shortcuts
 
@@ -103,13 +103,13 @@ Supported modifiers:
 
 Default shortcuts:
 
--   Open/Close app: <kbd>CommandOrControl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
+-   Open/Close app: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>A</kbd>
     <br>
     <br>
--   Exit app: <kbd>CommandOrControl</kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>
+-   Exit app: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>S</kbd>
     <br>
     <br>
--   Open/Close import page: <kbd>CommandOrControl</kbd>+ <kbd>Shift</kbd> + <kbd>D</kbd>
+-   Open/Close import page: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>D</kbd>
 
 ## Settings format
 
@@ -125,8 +125,12 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 		"close_to_tray": false,
 		"show_2fa_names": false,
 		"click_to_reveal": false,
-		"reset_after_copy": true,
-		"save_search_results": true
+		"reset_after_copy": false,
+		"save_search_results": true,
+		"disable_window_capture": true
+	},
+	"advanced_settings": {
+		"offset": null
 	},
 	"security": {
 		"require_password": null,

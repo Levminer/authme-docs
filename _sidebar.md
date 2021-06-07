@@ -4,6 +4,7 @@
     -   [Install](install.md)
     -   [Import](import.md)
     -   [Export](export.md)
+    -   [Edit](edit.md)
     -   [Settings](settings.md)
 
 -   Authme Web

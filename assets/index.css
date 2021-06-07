@@ -1,23 +1,25 @@
 :root {
 	--base-font-size: 18px;
-	--theme-color: #ffffff;
-	--base-background-color: #000000;
-	--cover-button-background: black;
-	--cover-button-border-radius: 30px;
-	--cover-button-border: black;
-	--cover-button-primary-color: black;
-	--sidebar-background: rgb(10, 10, 10);
-	--sidebar-toggle-background: rgb(20, 20, 20);
+	--theme-color: white;
+	--base-background-color: rgb(10, 10, 10);
+	--sidebar-background: rgb(0, 0, 0);
+	--sidebar-toggle-background: rgb(0, 0, 0);
 	--sidebar-nav-link-background-image: white;
 	--sidebar-nav-pagelink-background-image: white;
-	--search-background: rgb(20, 20, 20);
-	--search-input-background-color: rgb(20, 20, 20);
-
+	--search-background: rgb(10, 10, 10);
+	--search-input-background-color: rgb(0, 0, 0);
+	--selection-color: gray;
+	--code-inline-background: rgb(20, 20, 20);
+	--code-theme-background: rgb(20, 20, 20);
+	--copycode-background: rgb(0, 0, 0);
+	--kbd-background: rgb(20, 20, 20);
+	--notice-important-background: rgb(20, 20, 20);
+	--notice-tip-background: rgb(20, 20, 20);
+	--sidebar-border-color: rgb(30, 30, 30);
+	--search-input-border-color: rgb(30, 30, 30);
+	--base-font-family: Arial;
+	--heading-h2-border-color: rgb(30, 30, 30);
 	--navbar-root-color: white;
-
-	--cover-background-color: black;
-	--cover-background-blend-mode: normal;
-	
 
 	/* green = rgb(0, 128, 0) */
 	--sidebar-nav-pagelink-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='white' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
@@ -26,4 +28,11 @@
 	--sidebar-nav-pagelink-background-image--active: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='white' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 	--sidebar-nav-pagelink-background-image--collapse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='white', 0, 0%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 	--sidebar-nav-pagelink-background-image--loaded: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='white', 0, 0%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+}
+
+aside {
+	scrollbar-width: none;
+}
+aside::-webkit-scrollbar {
+	display: none;
 }
