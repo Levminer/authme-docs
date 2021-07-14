@@ -28,8 +28,6 @@ If you want to test Authme download this sample [import file](https://github.com
 
 ## Google Authenticator
 
-!> If you import from Google Authenticator you need: [Python](https://www.python.org/downloads/). If you are importing from QR code(s) you don't need anything special.
-
 1. Export the QR codes from the Google Authenticator app: Tap on the three dots on the top right of the screen > Transfer Accounts >
    Export Accounts
 
@@ -48,10 +46,6 @@ If you want to test Authme download this sample [import file](https://github.com
 1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
 
 ## Troubleshooting
-
-Nothing happens:
-
-1. If you are importing from Google Authenticator, make sure you have Python installed (Check: Top menu > Info > About). If you see "Not installed" download and install [Python](https://www.python.org/downloads/) and restart the app.
 
 No QR codes found on the picture(s):
 

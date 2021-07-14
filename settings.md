@@ -65,7 +65,7 @@ Default shortcuts:
 -   Exit app: <kbd>CommandOrControl</kbd> <kbd>W</kbd>
     <br>
     <br>
--   Open Authme Web: <kbd>CommandOrControl</kbd> <kbd>B</kbd>
+-   Edit codes: <kbd>CommandOrControl</kbd> <kbd>T</kbd>
     <br>
     <br>
 -   Show import: <kbd>CommandOrControl</kbd> <kbd>I</kbd>
@@ -80,7 +80,7 @@ Default shortcuts:
 -   Open issues: <kbd>CommandOrControl</kbd> <kbd>P</kbd>
     <br>
     <br>
--   Open Docs: <kbd>CommandOrControl</kbd> <kbd>D</kbd>
+-   Open support: <kbd>CommandOrControl</kbd> <kbd>P</kbd>
     <br>
     <br>
 -   Open licenses: <kbd>CommandOrControl</kbd> <kbd>L</kbd>
@@ -118,7 +118,7 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 ```json
 {
 	"version": {
-		"tag": "<version>"
+		"tag": "${tag_name}"
 	},
 	"settings": {
 		"launch_on_startup": false,
@@ -140,11 +140,11 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 		"show": "CommandOrControl+q",
 		"settings": "CommandOrControl+s",
 		"exit": "CommandOrControl+w",
-		"web": "CommandOrControl+b",
+		"edit": "CommandOrControl+t",
 		"import": "CommandOrControl+i",
 		"export": "CommandOrControl+e",
 		"release": "CommandOrControl+n",
-		"issues": "CommandOrControl+p",
+		"support": "CommandOrControl+p",
 		"docs": "CommandOrControl+d",
 		"licenses": "CommandOrControl+l",
 		"update": "CommandOrControl+u",

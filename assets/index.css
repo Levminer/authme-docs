@@ -1,4 +1,6 @@
 :root {
+	color-scheme: dark;
+
 	--base-font-size: 18px;
 	--theme-color: white;
 	--base-background-color: rgb(10, 10, 10);
