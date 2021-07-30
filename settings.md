@@ -14,7 +14,7 @@ On closing the app will not quit. You can open the app from the tray menu.
 
 -   Default: Off
 
-## Disable window capture
+## Disable window capture (Windows, Mac)
 
 Disables screenshots and screen capture. You can't record or screenshot the app.
 
@@ -26,7 +26,7 @@ The QR codes store a name field. You can turn it on, after restart on the main p
 
 -   Default: Off
 
-## Reveal code
+## Blur codes
 
 Blurs the code, but you can still copy it.
 
@@ -118,7 +118,8 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 ```json
 {
 	"version": {
-		"tag": "${tag_name}"
+		"tag": "<ex. 2.6.0>",
+		"build": "<ex. release.210713.092658>"
 	},
 	"settings": {
 		"launch_on_startup": false,
@@ -129,8 +130,9 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 		"save_search_results": true,
 		"disable_window_capture": true
 	},
-	"advanced_settings": {
-		"offset": null
+	"experimental": {
+		"offset": null,
+		"sort": null
 	},
 	"security": {
 		"require_password": null,
@@ -178,3 +180,17 @@ Cache file location:
 -   Linux: `/home/<username>/.config/authme`
 
 -   Mac: `/Users/<username>/Library/Application Support/authme`
+
+## Experimental features
+
+Some experimental features under development.
+
+!> These features are unstable, use it at your own risk!
+
+-   Offset
+
+If your clock is behind, you can offset Authme's internal clock, so your codes are generated correctly.
+
+-   Sort codes
+
+By default codes sorted by uploading order, you can set it to A-Z or Z-A.
