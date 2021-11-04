@@ -4,7 +4,7 @@ Short tutorial on how to import to Authme.
 
 You can import to Authme two ways:
 
-1. From QR codes: You screenshot all the QR codes from your favourite websites, and import all of them to Authme.
+1. From QR codes: You screenshot all the QR codes from your favorite websites, and import all of them to Authme.
 
 1. From Google Authenticator QR code(s): Import all of your saved QR codes from your Google Authenticator app.
 
@@ -18,7 +18,7 @@ If you want to test Authme download this sample [import file](https://github.com
 
 1. Back to Authme: Top menu > Advanced > Import
 
-1. Scroll down, choose import from Stand alone QR codes
+1. Scroll down, choose import from QR codes
 
 1. A popup windows will open, just select the picture(s).
 
@@ -35,7 +35,7 @@ If you want to test Authme download this sample [import file](https://github.com
 
 1. Back to Authme: Top menu > Advanced > Import
 
-1. Scroll down, choose import from Google Authenticator
+1. Scroll down, choose advanced import from Google Authenticator
 
 1. A popup windows will open, just select the picture(s).
 
