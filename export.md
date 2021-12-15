@@ -4,10 +4,14 @@ Short tutorial on how export works in Authme.
 
 ?> You can only export if you saved your code(s) on the main page.
 
-## Save as .txt
+## Export .authme file
 
-You can save your codes to a text file. You can use that file in [Authme Web](https://web.authme.levminer.com) or you can import that file to Authme again.
+You can export the Authme file for a backup or import to Authme again.
 
-## Save as .html
+## Export .html file
 
-You can save your QR code(s) to an HTML file and you can open it to scan all of your QR code(s).
+You can save your QR codes to an HTML file and you can open it to scan all of your QR code(s).
+
+## Export .txt file
+
+You can save your codes to a text file. You can use that file in [Authme Web](https://web.authme.levminer.com) or [Authme Lite](https://github.com/Levminer/authme-lite).

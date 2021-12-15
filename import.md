@@ -10,30 +10,34 @@ You can import to Authme two ways:
 
 If you want to test Authme download this sample [import file](https://github.com/Levminer/authme/blob/main/sample/authme_import_sample.zip?raw=true).
 
-## QR code(s)
+## Import 
+
+Import from QR code
 
 1. Go to the website(s) you want to get the QR code(s) from.
 
 1. Save the QR code(s) to your computer (take screenshot(s)).
 
-1. Back to Authme: Top menu > Advanced > Import
+1. Back to Authme: Top menu > Tools > Import
 
 1. Scroll down, choose import from QR codes
 
 1. A popup windows will open, just select the picture(s).
 
-1. Go back to the main page: Top menu > Advanced > Import
+1. Go back to the main page: Top menu > Tools > Import
 
 1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
 
-## Google Authenticator
+## Advanced import
+
+Import from Google Authenticator QR code
 
 1. Export the QR codes from the Google Authenticator app: Tap on the three dots on the top right of the screen > Transfer Accounts >
    Export Accounts
 
 1. Save the two or more QR code(s) with a screenshot or take a picture of them from another phone. Then transfer them to your computer.
 
-1. Back to Authme: Top menu > Advanced > Import
+1. Back to Authme: Top menu > Tools > Import
 
 1. Scroll down, choose advanced import from Google Authenticator
 
@@ -41,7 +45,7 @@ If you want to test Authme download this sample [import file](https://github.com
 
 1. You will see a popup window again. Save the file.
 
-1. Go back to the main page: Top menu > Advanced > Import
+1. Go back to the main page: Top menu > Tools > Import
 
 1. Click on the Choose file button, select your exported file from where you saved it. And you are done!
 

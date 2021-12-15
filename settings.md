@@ -4,19 +4,19 @@ All of the settings you can configure in Authme.
 
 ## Launch on startup
 
-Start the app after the operating system loaded. The app will start on the tray.
+Start Authme after your computer started. Authme will start on the system tray.
 
--   Default: Off
+-   Default: On
 
 ## Close app to tray
 
-On closing the app will not quit. You can open the app from the tray menu.
+When closing Authme the app will not quit. You can open Authme from the system tray.
 
--   Default: Off
+-   Default: On
 
 ## Window capture (Windows, Mac)
 
-Disables screenshots and screen capture. You can't record or screenshot the app.
+Allows screenshots and screen capture. You can record or screenshot the app until you restart Authme.
 
 -   Default: off
 
@@ -26,29 +26,29 @@ Uses GPU for smoother experience. Enable this option if you experience frame dro
 
 -   Default: off
 
-## Show 2FA descriptions
+## Codes description
 
-The QR codes store a name field. You can turn it on, after restart on the main page you will see the name is the stored QR codes.
+The saved codes description will be visible. You can copy it after clicking it.
 
 -   Default: Off
 
 ## Blur codes
 
-Blurs the code, but you can still copy it.
+Blur the saved codes. You can still copy it or hover over it to reveal.
 
 -   Default: Off
+
+## Search history
+
+Save the latest code you searched for. Works even after restart.
+
+-   Default: On
 
 ## Reset search after copy
 
-After you copy the code the search bar and the search results will reset.
+Reset the search bar after you copied a code. Useful if you copy and search for a lot of codes.
 
 -   Default: Off
-
-## Save search history
-
-Keep your search history.
-
--   Default: On
 
 ## Shortcuts
 
@@ -62,13 +62,13 @@ Supported modifiers:
 
 Default shortcuts:
 
--   Show/Hide app: <kbd>CommandOrControl</kbd> <kbd>Q</kbd>
+-   Show/Hide App: <kbd>CommandOrControl</kbd> <kbd>Q</kbd>
     <br>
     <br>
 -   Settings: <kbd>CommandOrControl</kbd> <kbd>S</kbd>
     <br>
     <br>
--   Exit app: <kbd>CommandOrControl</kbd> <kbd>W</kbd>
+-   Exit App: <kbd>CommandOrControl</kbd> <kbd>W</kbd>
     <br>
     <br>
 -   Reset: <kbd>CommandOrControl</kbd> <kbd>0</kbd>
@@ -80,7 +80,7 @@ Default shortcuts:
 -   Zoom out: <kbd>CommandOrControl</kbd> <kbd>2</kbd>
     <br>
     <br>
--   Edit codes: <kbd>CommandOrControl</kbd> <kbd>T</kbd>
+-   Edit Codes: <kbd>CommandOrControl</kbd> <kbd>T</kbd>
     <br>
     <br>
 -   Import: <kbd>CommandOrControl</kbd> <kbd>I</kbd>
@@ -92,13 +92,13 @@ Default shortcuts:
 -   Documentation: <kbd>CommandOrControl</kbd> <kbd>D</kbd>
     <br>
     <br>
--   Release notes: <kbd>CommandOrControl</kbd> <kbd>N</kbd>
+-   Release Notes: <kbd>CommandOrControl</kbd> <kbd>N</kbd>
     <br>
     <br>
--   Support development: <kbd>CommandOrControl</kbd> <kbd>P</kbd>
+-   Support Development: <kbd>CommandOrControl</kbd> <kbd>P</kbd>
     <br>
     <br>
--   Show licenses: <kbd>CommandOrControl</kbd> <kbd>L</kbd>
+-   Show Licenses: <kbd>CommandOrControl</kbd> <kbd>L</kbd>
     <br>
     <br>
 -   Update: <kbd>CommandOrControl</kbd> <kbd>U</kbd>
@@ -118,13 +118,13 @@ Supported modifiers:
 
 Default shortcuts:
 
--   Show/Hide app: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>A</kbd>
+-   Show/Hide App: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>A</kbd>
     <br>
     <br>
 -   Settings: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>S</kbd>
     <br>
     <br>
--   Exit: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>D</kbd>
+-   Exit App: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>D</kbd>
 
 ## Settings format
 
@@ -132,62 +132,66 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 
 ```json
 {
-		"version":{
-			"tag": "<ex. 2.7.2>",
-			"build": "<ex. release.211012.162030>"
+	info: {
+		version: <ex. 2.7.4>,
+		build: <ex. release.211214.153017>,
+		date: <ex. 2021. December 14.>,
+	},
+	settings: {
+		launch_on_startup: true,
+		close_to_tray: true,
+		codes_description: false,
+		blur_codes: false,
+		reset_after_copy: false,
+		search_history: true,
+		hardware_acceleration: true,
+		search_filter: {
+			name: true,
+			description: false,
 		},
-		"settings": {
-			"launch_on_startup": false,
-			"close_to_tray": true,
-			"show_2fa_names": false,
-			"click_to_reveal": false,
-			"reset_after_copy": false,
-			"save_search_results": true,
-			"disable_window_capture": true,
-			"disable_hardware_acceleration": true
-		},
-		"experimental":{
-			"sort": null,
-			"webcam": "null"
-		},
-		"security": {
-			"require_password": null,
-			"password": null,
-			"new_encryption": null,
-			"key": null
-		},
-		"shortcuts": {
-			"show": "CommandOrControl+q",
-			"settings": "CommandOrControl+s",
-			"exit": "CommandOrControl+w",
-			"zoom_reset": "CommandOrControl+0",
-			"zoom_in": "CommandOrControl+1",
-			"zoom_out": "CommandOrControl+2",
-			"edit": "CommandOrControl+t",
-			"import": "CommandOrControl+i",
-			"export": "CommandOrControl+e",
-			"release": "CommandOrControl+n",
-			"support": "CommandOrControl+p",
-			"docs": "CommandOrControl+d",
-			"licenses": "CommandOrControl+l",
-			"update": "CommandOrControl+u",
-			"info": "CommandOrControl+o"
-		},
-		"global_shortcuts": {
-			"show": "CommandOrControl+Shift+a",
-			"settings": "CommandOrControl+Shift+s",
-			"exit": "CommandOrControl+Shift+d"
-		},
-		"quick_shortcuts:": {},
-		"search_history": {
-			"latest": null
-		},
-		"statistics": {
-			"opens": 0,
-			"rated": null,
-			"feedback": null
-		}
-	}
+		default_display: 1,
+	},
+	experimental: {
+		sort: null,
+		screen_capture: false,
+	},
+	security: {
+		require_password: null,
+		password: null,
+		key: null,
+	},
+	shortcuts: {
+		show: "CmdOrCtrl+q",
+		settings: "CmdOrCtrl+s",
+		exit: "CmdOrCtrl+w",
+		zoom_reset: "CmdOrCtrl+0",
+		zoom_in: "CmdOrCtrl+1",
+		zoom_out: "CmdOrCtrl+2",
+		edit: "CmdOrCtrl+t",
+		import: "CmdOrCtrl+i",
+		export: "CmdOrCtrl+e",
+		release: "CmdOrCtrl+n",
+		support: "CmdOrCtrl+p",
+		docs: "CmdOrCtrl+d",
+		licenses: "CmdOrCtrl+l",
+		update: "CmdOrCtrl+u",
+		info: "CmdOrCtrl+o",
+	},
+	global_shortcuts: {
+		show: "CmdOrCtrl+Shift+a",
+		settings: "CmdOrCtrl+Shift+s",
+		exit: "CmdOrCtrl+Shift+d",
+	},
+	quick_shortcuts: {},
+	search_history: {
+		latest: null,
+	},
+	statistics: {
+		opens: 0,
+		rated: null,
+		feedback: null,
+	},
+}
 ```
 
 ## Folders
@@ -196,17 +200,17 @@ Settings file location:
 
 -   Windows: `C:\Users\<username>\AppData\Roaming\Levminer\Authme`
 
--   Linux: `/home/<username>/Levminer/Authme`
+-   Linux: `/home/<username>/.config/Levminer/Authme`
 
--   Mac: `/Users/<username>/Levminer/Authme`
+-   Mac: `/Users/<username>/Library/Application Support/Levminer/Authme`
 
 Cache file location:
 
--   Windows: `C:\Users\<username>\AppData\Roaming\authme`
+-   Windows: `C:\Users\<username>\AppData\Roaming\Authme`
 
--   Linux: `/home/<username>/.config/authme`
+-   Linux: `/home/<username>/.config/Authme`
 
--   Mac: `/Users/<username>/Library/Application Support/authme`
+-   Mac: `/Users/<username>/Library/Application Support/Authme`
 
 ## Experimental features
 
