@@ -1,6 +1,4 @@
-## Install
-
-Short tutorial on how to install Authme.
+# Install
 
 You can install Authme multiple ways. For all options visit the GitHub Releases: [Releases](https://github.com/Levminer/Authme/releases/)
 

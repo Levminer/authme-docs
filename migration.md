@@ -1,3 +1,7 @@
+# Migration
+
+The steps you have to take to migrate to the latest version of Authme.
+
 ## Migrating
 
 Migrating to Authme 3 from Authme 2

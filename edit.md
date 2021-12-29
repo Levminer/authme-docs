@@ -1,6 +1,6 @@
-## Edit
+# Edit codes
 
-You can access the Edit page in the: Top menu > Tools > Edit codes.
+You can access the Edit page in the: Menubar > Tools > Edit codes.
 
 ## Edit mode
 

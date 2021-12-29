@@ -38,3 +38,11 @@ aside {
 aside::-webkit-scrollbar {
 	display: none;
 }
+
+nav {
+	position: fixed !important;
+}
+
+.github-corner {
+	position: fixed !important;
+}

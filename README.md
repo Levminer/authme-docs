@@ -1,4 +1,4 @@
-## Getting started
+# Getting started
 
 This is the home of all the Authme Documentation.
 

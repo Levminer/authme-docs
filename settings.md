@@ -1,6 +1,6 @@
-## Settings
+# Settings
 
-All of the settings you can configure in Authme.
+You can access the Settings page in the: Menubar > File > Settings.
 
 ## Launch on startup
 
@@ -218,9 +218,9 @@ Some experimental features under development.
 
 !> These features are unstable, use it at your own risk!
 
--   Use webcam for import
+-   Import screen capture
 
-You can import QR code(s) directly from you camera.
+You can scan QR codes from your screen.
 
 -   Sort codes
 

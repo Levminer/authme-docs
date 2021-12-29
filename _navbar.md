@@ -1,3 +1,2 @@
 -   [Home](/)
 -   [Website](https://authme.levminer.com)
--   [GitHub](https://github.com/Levminer/authme)

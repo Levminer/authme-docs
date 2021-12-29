@@ -1,6 +1,6 @@
-## Export
+# Export
 
-Short tutorial on how export works in Authme.
+You can access the Export page in the: Menubar > Tools > Export.
 
 ?> You can only export if you saved your code(s) on the main page.
 
