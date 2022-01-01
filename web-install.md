@@ -1,11 +1,7 @@
-## Install
+# Install
 
-Short tutorial on how to install Authme Web on your phone.
+Short tutorial on how to install Authme Web on your device.
 
-## Android
+## Installing
 
--   Please read: [Instal PWA app on Android](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=en).
-
-## IOS
-
--   Please read: [Install PWA app on IOS](https://www.idownloadblog.com/2018/07/19/howto-progressive-web-apps-iphone-ipad/).
+-   Please read (Android, iOS, Windows, macOS): [Install PWA apps](https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/).
