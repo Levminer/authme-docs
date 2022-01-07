@@ -6,6 +6,13 @@ You can install Authme multiple ways. For all options visit the GitHub Releases:
 
 !> Because Authme is not signed with a code signing certificate, (do to high costs) please ignore any security warnings. Also make sure you download the official executables form [GitHub](https://github.com/Levminer/authme/releases) or from the [Website](https://authme.levminer.com#downloads).
 
+Instructions for Microsoft Store:
+
+1. Open Authme on the [Microsoft Store](https://link.levminer.com/authme-ms-store).
+1. Click on the Microsoft Store button.
+2. Click on Open Microsoft Store.
+3. Click Install on the Microsoft Store popup.
+
 Instructions for Windows Installer:
 
 1. Download the latest [Windows Installer](https://authme.levminer.com#downloads).
@@ -37,11 +44,10 @@ Instructions for Linux Installer using a GUI:
 1. Under permissions tick the checkbox: Allow executing file as a program.
 1. Run the file.
 
-
 Instructions for Linux Installer using a CLI:
 
 1. Download the latest [Linux Installer](https://authme.levminer.com#downloads).
-1. Make the file executable: 
+1. Make the file executable:
 
 ```bash
 chmod a+x authme-<version>-linux-x64-installer.appimage
