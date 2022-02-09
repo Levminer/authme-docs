@@ -18,13 +18,31 @@ When closing Authme the app will not quit. You can open Authme from the system t
 
 Allows screenshots and screen capture. You can record or screenshot the app until you restart Authme.
 
--   Default: off
+-   Default: Off
+
+## Language
+
+Choose which language should Authme use by default. The translations are not perfect and changing the language requires a restart.
+
+-   Default: English (US)
+
+## Default display
+
+Choose which display should Authme open by default. Authme will fall back to the primary display if the chosen one is not available.
+
+- Default: Display #1
 
 ## Hardware acceleration
 
 Uses GPU for smoother experience. Enable this option if you experience frame drops or lags.
 
--   Default: off
+-   Default: Off
+
+## Sort codes
+
+You can choose how to sort the codes. By default codes are sorted by importing order.
+
+- Default: Default
 
 ## Codes description
 
@@ -144,15 +162,16 @@ You can modify the settings file. See [folders](settings.md?id=folders) for more
 		blur_codes: false,
 		reset_after_copy: false,
 		search_history: true,
-		hardware_acceleration: true,
+		hardware_acceleration: false,
 		search_filter: {
 			name: true,
 			description: false,
 		},
 		default_display: 1,
+		language: null,
+		sort: null,
 	},
 	experimental: {
-		sort: null,
 		screen_capture: false,
 	},
 	security: {
@@ -221,7 +240,3 @@ Some experimental features under development.
 -   Import screen capture
 
 You can scan QR codes from your screen.
-
--   Sort codes
-
-By default codes sorted by uploading order, you can set it to A-Z or Z-A.
