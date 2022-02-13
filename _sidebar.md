@@ -6,6 +6,7 @@
     -   [Export](export.md)
     -   [Edit codes](edit.md)
     -   [Settings](settings.md)
+    -   [Examples](examples.md)
     -   [Migration](migration.md)
 
 -   Authme Web
