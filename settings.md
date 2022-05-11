@@ -20,39 +20,33 @@ Allows screenshots and screen capture. You can record or screenshot the app unti
 
 -   Default: Off
 
-## Language
-
-Choose which language should Authme use by default. The translations are not perfect and changing the language requires a restart.
-
--   Default: English (US)
-
-## Default display
-
-Choose which display should Authme open by default. Authme will fall back to the primary display if the chosen one is not available.
-
-- Default: Display #1
-
 ## Hardware acceleration
 
 Uses GPU for smoother experience. Enable this option if you experience frame drops or lags.
 
 -   Default: Off
 
+## Optional analytics
+
+Send optional analytics, the sent data is completely anonymous. This includes your Authme version and your OS version..
+
+-   Default: On
+
+## Language
+
+Choose which language should Authme use by default. The translations are not perfect and changing the language requires a restart.
+
+-   Default: English (US)
+
 ## Sort codes
 
 You can choose how to sort the codes. By default codes are sorted by importing order.
 
-- Default: Default
+-   Default: Default
 
 ## Codes description
 
 The saved codes description will be visible. You can copy it after clicking it.
-
--   Default: Off
-
-## Blur codes
-
-Blur the saved codes. You can still copy it or hover over it to reveal.
 
 -   Default: Off
 
@@ -144,75 +138,6 @@ Default shortcuts:
     <br>
 -   Exit App: <kbd>CommandOrControl</kbd> <kbd>Shift</kbd> <kbd>D</kbd>
 
-## Settings format
-
-You can modify the settings file. See [folders](settings.md?id=folders) for more information.
-
-```json
-{
-	info: {
-		version: <ex. 2.7.4>,
-		build: <ex. release.211214.153017>,
-		date: <ex. 2021. December 14.>,
-	},
-	settings: {
-		launch_on_startup: true,
-		close_to_tray: true,
-		codes_description: false,
-		blur_codes: false,
-		reset_after_copy: false,
-		search_history: true,
-		hardware_acceleration: false,
-		search_filter: {
-			name: true,
-			description: false,
-		},
-		default_display: 1,
-		language: null,
-		sort: null,
-	},
-	experimental: {
-		screen_capture: false,
-	},
-	security: {
-		require_password: null,
-		password: null,
-		key: null,
-	},
-	shortcuts: {
-		show: "CmdOrCtrl+q",
-		settings: "CmdOrCtrl+s",
-		exit: "CmdOrCtrl+w",
-		zoom_reset: "CmdOrCtrl+0",
-		zoom_in: "CmdOrCtrl+1",
-		zoom_out: "CmdOrCtrl+2",
-		edit: "CmdOrCtrl+t",
-		import: "CmdOrCtrl+i",
-		export: "CmdOrCtrl+e",
-		release: "CmdOrCtrl+n",
-		support: "CmdOrCtrl+p",
-		docs: "CmdOrCtrl+d",
-		licenses: "CmdOrCtrl+l",
-		update: "CmdOrCtrl+u",
-		info: "CmdOrCtrl+o",
-	},
-	global_shortcuts: {
-		show: "CmdOrCtrl+Shift+a",
-		settings: "CmdOrCtrl+Shift+s",
-		exit: "CmdOrCtrl+Shift+d",
-	},
-	quick_shortcuts: {},
-	search_history: {
-		latest: null,
-	},
-	statistics: {
-		opens: 0,
-		rated: null,
-		feedback: null,
-	},
-}
-```
-
 ## Folders
 
 Settings file location:
@@ -230,13 +155,3 @@ Cache file location:
 -   Linux: `/home/<username>/.config/Authme`
 
 -   Mac: `/Users/<username>/Library/Application Support/Authme`
-
-## Experimental features
-
-Some experimental features under development.
-
-!> These features are unstable, use it at your own risk!
-
--   Import screen capture
-
-You can scan QR codes from your screen.

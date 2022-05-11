@@ -6,9 +6,12 @@ This is the home of all the Authme Documentation.
 
 Some key features of Authme:
 
--   🔒 Secure: Your codes is secured by AES 256bit encryption and your own password.
--   🗄️ Import: You can directly import from Google Authenticator or from any 2FA QR code you screenshot.
--   ⌨️ Shortcuts: Easily open Authme with custom shortcuts and it can also start when your system starts.
+-   🔒 Secure by design: Your codes is secured by AES 256bit encryption with your own password.
+-   🔑 Import codes: Import form any 2FA TOTP QR code or import directly from Google Authenticator.
+-   ⌨️ Many shortcuts: Easily open Authme with custom shortcuts and the app will start with your system for quick and easy access.
+-   📡 Completely offline: You own your data, internet is only required for updates.
+-   💻 Privacy in mind: Authme is hidden from video capture and screenshots.
+-   📃 Easy export and backup: You can export your 2FA codes anytime and you can create a backup of your codes very easily.
 
 ## Help
 
